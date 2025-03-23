@@ -4,7 +4,7 @@ import Stats from "./components/Stats/Stats";
 import History from "./components/History/History";
 import "./styles/main.scss";
 import useGameStore from "../stores/gameStore";
-import { Button } from "./components/Button/Button";
+import Button from "./components/Button/Button";
 
 const images = ["🚀", "🏠", "💖", "🎁", "🎂", "🎉", "🎈", "🎃", "🎨", "👑"];
 
