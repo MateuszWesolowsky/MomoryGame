@@ -15,7 +15,7 @@ This is a simple **Memory Game** built using **React** and **Zustand** for state
 - **React**: Used for building the user interface.
 - **Zustand**: State management for handling game state, tiles, matched cards, and history.
 - **TypeScript**: Provides static type checking for better development experience.
-- **CSS Grid**: Used for creating the layout of the game board.
+- **SCSS**: Used for styling and creating the layout of the game board.
 
 ## Setup
 
@@ -23,15 +23,18 @@ To run the game locally, follow these steps:
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/memory-game.git
+   git clone https://github.com/MateuszWesolowsky/MomoryGame.git
 
 2. Navigate to the project directory:
+
    cd game
 
 3. Install the dependencies:
+
    npm install
 
 4. Start the development server:
+
    npm run dev
 
 ## Gameplay Instructions
