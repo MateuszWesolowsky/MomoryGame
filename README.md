@@ -1,44 +1,45 @@
-Memory Game
-This is a simple Memory Game built using React and Zustand for state management. The game challenges the player to match pairs of cards, and it's designed to be fun and challenging at different difficulty levels.
+# Memory Game
 
-Features
-Difficulty Levels: Choose between easy, medium, and hard difficulty.
+This is a simple **Memory Game** built using **React** and **Zustand** for state management. The game challenges the player to match pairs of cards, and it's designed to be fun and challenging at different difficulty levels.
 
-Timer: Tracks time spent on the game.
+## Features
 
-Attempts Counter: Keeps track of the number of attempts made by the player.
+- **Difficulty Levels**: Choose between easy, medium, and hard difficulty.
+- **Timer**: Tracks time spent on the game.
+- **Attempts Counter**: Keeps track of the number of attempts made by the player.
+- **Game History**: Saves the history of games played with the date, number of attempts, time spent, and difficulty level.
+- **Matched Pairs**: Displays a game board where the player can match pairs of cards.
 
-Game History: Saves the history of games played with the date, number of attempts, time spent, and difficulty level.
+## Tech Stack
 
-Matched Pairs: Displays a game board where the player can match pairs of cards.
+- **React**: Used for building the user interface.
+- **Zustand**: State management for handling game state, tiles, matched cards, and history.
+- **TypeScript**: Provides static type checking for better development experience.
+- **CSS Grid**: Used for creating the layout of the game board.
 
-Tech Stack
-React: Used for building the user interface.
+## Setup
 
-Zustand: State management for handling game state, tiles, matched cards, and history.
-
-TypeScript: Provides static type checking for better development experience.
-
-CSS Grid: Used for creating the layout of the game board.
-
-Setup
 To run the game locally, follow these steps:
 
-Clone the repository:
-git clone https://github.com/yourusername/memory-game.git
+1. Clone the repository:
 
-Navigate to the project directory:
-cd game
+   git clone https://github.com/yourusername/memory-game.git
 
-Install the dependencies:
-npm install
+2. Navigate to the project directory:
+   cd game
 
-Start the development server:
-npm run dev
+3. Install the dependencies:
+   npm install
 
-Gameplay Instructions
-Start the game by selecting the difficulty level.
+4. Start the development server:
+   npm run dev
 
-Click on tiles to reveal their images. Try to match pairs of identical tiles.
+## Gameplay Instructions
 
-Once all pairs are matched, the game ends, and informations appears in history.
+1. Start the game by selecting the difficulty level.
+
+2. Click on tiles to reveal their images. Try to match pairs of identical tiles.
+
+3. Once all pairs are matched, the game ends, and information about the game appears in the history.
+
+Enjoy the game!
