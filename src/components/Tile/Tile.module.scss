@@ -1,0 +1,30 @@
+@use "../../styles/variables";
+
+.tile {
+  background: linear-gradient(45deg, #8bd4f1, variables.$secondary-color);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+  aspect-ratio: 1;
+
+  &[data-revealed="true"] {
+    background: white;
+  }
+
+  &[data-matched="true"] {
+    cursor: not-allowed;
+    background: white;
+  }
+
+  &[data-disbaled="true"] {
+    cursor: not-allowed;
+  }
+
+  & p {
+    color: white;
+    font-size: 20px;
+  }
+}

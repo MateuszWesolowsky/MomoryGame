@@ -1,0 +1,38 @@
+@use "../../styles/variables";
+
+.history {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+
+  h3 {
+    color: white;
+    margin: 0 0 1rem 0;
+  }
+
+  .historyItem {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    span {
+      font-size: 0.9rem;
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+
+  @media (max-width: variables.$mobile-breakpoint) {
+    .historyItem {
+      grid-template-columns: 1fr;
+      gap: 0.25rem;
+    }
+  }
+}

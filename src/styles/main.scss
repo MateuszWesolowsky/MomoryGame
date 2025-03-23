@@ -1,0 +1,54 @@
+@use "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: variables.$background-gradient;
+  background-attachment: fixed;
+  color: white;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.app {
+  text-align: center;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+@media (max-width: variables.$tablet-breakpoint) {
+  #root {
+    padding: 1.5rem;
+  }
+
+  .app {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: variables.$mobile-breakpoint) {
+  #root {
+    padding: 1rem;
+  }
+
+  .app {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+}
